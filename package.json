@@ -1,14 +1,15 @@
 {
-    "dependencies": {
-        "express": "^4.19.2"
-    },
-    "scripts": {
-        "dev": "nodemon ./src/index.js"
-    },
-    "name": "finap",
+    "name": "finapi",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
+    "scripts": {
+        "dev": "nodemon ./src/index.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "uuid": "^9.0.1"
+    },
     "devDependencies": {
         "nodemon": "^3.1.0"
     }
